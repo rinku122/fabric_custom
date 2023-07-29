@@ -61,3 +61,7 @@ peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.exa
 peer chaincode query -C mychannel -n basic -c '{"Args":["GetAllAssets"]}'
 
 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Do all>>>>>>>After this only give bin , fabric path , set pear and init ledger
+
+./network.sh deployCC -ccn basic -ccp ../firstCustomContract/chaincode-javascript -ccl javascript
